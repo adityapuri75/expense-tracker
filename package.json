@@ -1,0 +1,31 @@
+{
+  "name": "expense-tracker",
+  "version": "1.0.0",
+  "description": "I have created a simple Node.js MVC (Model-View-Controller) backend template. This template serves as a basic starting point for building Node.js applications using the MVC architectural pattern.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "aditya",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^6.1.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
